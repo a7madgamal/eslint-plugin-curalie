@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-curalie",
+  "version": "1.0.0",
+  "description": "a collection of custom rules for Curalie",
+  "main": "lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "repository": "https://github.com/a7madgamal/eslint-plugin-curalie",
+  "author": "Ahmed Hassanein <ahmed.hassanein@curalie.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "scripts": {
+    "test": "jest tests",
+    "prettier": "prettier --check \"{lib,test}/**/*.js\""
+  },
+  "peerDependencies": {
+    "eslint": "^8.17.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.7.0",
+    "typescript": "^4.7.3"
+  }
+}
