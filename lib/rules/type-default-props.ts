@@ -4,7 +4,7 @@ const createRule = ESLintUtils.RuleCreator(
   (name) => `https://example.com/rule/${name}`
 );
 
-export const rule = createRule({
+export const typeDefaultProps = createRule({
   create(context) {
     return {
       FunctionDeclaration(node) {

@@ -16,7 +16,8 @@
   ],
   "scripts": {
     "test": "jest tests",
-    "prettier": "prettier --check \"{lib,test}/**/*.js\""
+    "prettier": "prettier --check \"{lib,test}/**/*.js\"",
+    "build": "tsc -b tsconfig.json"
   },
   "peerDependencies": {
     "eslint": "^8.17.0"

@@ -1,4 +1,4 @@
-import rules from "./rules/type-default-props";
+import rules from "./rules";
 
 module.exports = {
   rules,
